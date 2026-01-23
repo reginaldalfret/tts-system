@@ -200,7 +200,7 @@ export function TTSPlayer({ voiceSettings, environmentSettings }: TTSPlayerProps
         <Textarea
           value={text}
           onChange={(e) => setText(e.target.value)}
-          placeholder="Enter text to speak..."
+          placeholder="Enter text to speak........."
           className="min-h-[120px] border-2 border-blue-100 dark:border-blue-900/50 focus:border-blue-300 dark:focus:border-blue-700 rounded-xl shadow-sm"
         />
         <div className="absolute top-2 right-2">
